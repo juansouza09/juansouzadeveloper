@@ -1844,7 +1844,7 @@ select.form-control-lg:not([size]):not([multiple]) {
     display: none;
     margin-top: .25rem;
     font-size: .875rem;
-    color: #dc3545
+    color: #d43c00
 }
 
 .invalid-tooltip {
@@ -1921,7 +1921,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-control.is-invalid,
 .was-validated .custom-select:invalid,
 .was-validated .form-control:invalid {
-    border-color: #dc3545
+    border-color: #d43c00
 }
 
 .custom-select.is-invalid:focus,
@@ -1944,7 +1944,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-check-input.is-invalid+.form-check-label,
 .was-validated .form-check-input:invalid+.form-check-label {
-    color: #dc3545
+    color: #d43c00
 }
 
 .custom-control-input.is-invalid~.custom-control-indicator,
@@ -1954,12 +1954,12 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .custom-control-input.is-invalid~.custom-control-description,
 .was-validated .custom-control-input:invalid~.custom-control-description {
-    color: #dc3545
+    color: #d43c00
 }
 
 .custom-file-input.is-invalid~.custom-file-control,
 .was-validated .custom-file-input:invalid~.custom-file-control {
-    border-color: #dc3545
+    border-color: #d43c00
 }
 
 .custom-file-input.is-invalid~.custom-file-control::before,
@@ -2262,8 +2262,8 @@ fieldset[disabled] a.btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #d43c00;
+    border-color: #d43c00
 }
 
 .btn-danger:hover {
@@ -2279,8 +2279,8 @@ fieldset[disabled] a.btn {
 
 .btn-danger.disabled,
 .btn-danger:disabled {
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #d43c00;
+    border-color: #d43c00
 }
 
 .btn-danger.active,
@@ -2514,16 +2514,16 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-danger {
-    color: #dc3545;
+    color: #d43c00;
     background-color: transparent;
     background-image: none;
-    border-color: #dc3545
+    border-color: #d43c00
 }
 
 .btn-outline-danger:hover {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #d43c00;
+    border-color: #d43c00
 }
 
 .btn-outline-danger.focus,
@@ -2533,7 +2533,7 @@ fieldset[disabled] a.btn {
 
 .btn-outline-danger.disabled,
 .btn-outline-danger:disabled {
-    color: #dc3545;
+    color: #d43c00;
     background-color: transparent
 }
 
@@ -2541,8 +2541,8 @@ fieldset[disabled] a.btn {
 .btn-outline-danger:active,
 .show>.btn-outline-danger.dropdown-toggle {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #d43c00;
+    border-color: #d43c00
 }
 
 .btn-outline-light {
@@ -4248,7 +4248,7 @@ tbody.collapse.show {
 
 .badge-danger {
     color: #fff;
-    background-color: #dc3545
+    background-color: #d43c00
 }
 
 .badge-danger[href]:focus,
@@ -5531,7 +5531,7 @@ a.bg-warning:hover {
 }
 
 .bg-danger {
-    background-color: #dc3545!important
+    background-color: #d43c00!important
 }
 
 a.bg-danger:focus,
@@ -5610,7 +5610,7 @@ a.bg-dark:hover {
 }
 
 .border-danger {
-    border-color: #dc3545!important
+    border-color: #d43c00!important
 }
 
 .border-light {
@@ -8409,7 +8409,7 @@ a.text-warning:hover {
 }
 
 .text-danger {
-    color: #dc3545!important
+    color: #d43c00!important
 }
 
 a.text-danger:focus,
@@ -8510,28 +8510,26 @@ button.pulse-button i {
     border-image-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
-    box-shadow: #6495ED);
+    box-shadow: #d43c00;
     border-radius: 50%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     background: #0a5434;
-    background-image: linear-gradient(to bottom, #6495ED, #6495ED);
+    background-image: linear-gradient(to bottom, #d43c00, #d43c00);
     background-position-x: initial;
     background-position-y: initial;
     background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(217, 0, 0);
-    background-image: -webkit-linear-gradient(top, #6495ED, #6495ED);
-    background-image: -moz-linear-gradient(top, #6495ED, #6495ED);
-    background-image: -ms-linear-gradient(top, #6495ED, #6495ED);
-    background-image: -o-linear-gradient(top, #6495ED, #6495ED);
-    background-image: linear-gradient(to bottom, #6495ED, #6495ED);
+    background-color: rgb(255,165,0);
+    background-image: -webkit-linear-gradient(top, #d43c00, #d43c00);
+    background-image: -moz-linear-gradient(top, #d43c00, #d43c00);
+    background-image: -ms-linear-gradient(top, #d43c00, #d43c00);
+    background-image: -o-linear-gradient(top, #d43c00, #d43c00);
+    background-image: linear-gradient(to bottom, #d43c00, #d43c00);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
